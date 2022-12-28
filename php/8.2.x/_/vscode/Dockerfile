@@ -6,3 +6,5 @@ VOLUME /workspace
 
 # VSCode as Git editor 
 RUN git config --global core.editor "code --wait"
+
+ENTRYPOINT ["bash"]

@@ -1,4 +1,5 @@
-FROM php:8.2.0
+ARG VARIANT=8.2.0
+FROM php:${VARIANT}
 
 # Update
 RUN apt-get update && \
